@@ -1,1 +1,3 @@
-GloVe pretrained word embeddings (file named 'glove.6B.<NUM>d.txt', where <NUM> is the embedding dimension) should be in this folder.
+Data files ('train.csv', 'test.csv' and 'test_labels.csv') should be in this folder.
+
+Data files could be gotten from https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge.
