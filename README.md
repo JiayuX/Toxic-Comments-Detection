@@ -9,4 +9,4 @@ Transfer learning is performed as follows: the pretrained word embeddings GloVe 
 
 All comments are rated in six toxicity categories: toxic, severe_toxic, obscene, threat, insult, identity_hate. The resultant model can be used to predict how toxic a comment is in each toxicity category. 
 
-The model performance could be further improved by experimenting with the achitecture and conducting hyperparameter tuning.
+The model performance could possibly be further improved by experimenting with the achitecture, conducting hyperparameter tuning and using word embeddings with higher dimensions.
