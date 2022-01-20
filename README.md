@@ -1,7 +1,7 @@
 # Toxic-Comments-Detection
 In this project, a bidirectional GRU with attention mechanism is used to detect and rate toxic comments.
 
-The training data is from the Toxic Comment Classification Challenge on Kaggle (https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge).
+The training data is from the Toxic Comment Classification Challenge on [Kaggle](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge).
 
 Text data preprocessing is done using a customized class and functions written in the 'preprocessing.py' file. Tensorflow and Keras are used to build and train the model.
 
