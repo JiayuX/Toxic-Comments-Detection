@@ -3,7 +3,7 @@ In this project, a toxic comments detector is built and tested.
 
 The training data is from the Toxic Comment Classification Challenge on [Kaggle](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge).
 
-## Machine Learning Platform
+## Machine Learning Platforms
 PyTorch and Tensorflow/Keras are used independently to provide two versions of solution to this project. 
 
 Text data preprocessing is done using a customized class and functions written in the 'preprocessing.py' file. Tensorflow and Keras are used to build and train the model.
