@@ -6,7 +6,7 @@ The training data is from the Toxic Comment Classification Challenge on [Kaggle]
 ## Machine Learning Platforms
 PyTorch and Tensorflow/Keras are used independently to provide two versions of solution to this project. 
 
-Text data preprocessing is done using a customized class and functions written in the 'preprocessing.py' file. Tensorflow and Keras are used to build and train the model.
+Text data preprocessing is done using a customized class and functions written in the 'preprocessing.py' file.
 
 ## Model details
 A bidirectional GRU with attention mechanism is used to build the model. Transfer learning is performed as follows: the pretrained word embeddings GloVe (Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014.) is loaded into an embedding layer and is not trained during the training, and the rest of the model is trained with the training data.
