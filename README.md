@@ -10,11 +10,11 @@ PyTorch and Tensorflow/Keras are used independently to provide two versions of s
 
 Here is the training curves in Tensorflow/Keras:
 
-<img src="https://raw.githubusercontent.com/JiayuX/Covid-Variants-Analysis-and-Forecasting/main/pie_group.png" width="600"/>
+<img src="https://raw.githubusercontent.com/JiayuX/Toxic-Comments-Detection/main/tf_keras.png" width="600"/>
 
 and here is the training curves in PyTorch:
 
-<img src="https://raw.githubusercontent.com/JiayuX/Covid-Variants-Analysis-and-Forecasting/main/pie_group.png" width="600"/>
+<img src="https://raw.githubusercontent.com/JiayuX/Toxic-Comments-Detection/main/pytorch.png" width="600"/>
 
 ## Model details
 A bidirectional GRU with attention mechanism is used to build the model. Transfer learning is performed as follows: the pretrained word embeddings GloVe (Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014.) is loaded into an embedding layer and is not trained during the training, and the rest of the model is trained with the training data.
